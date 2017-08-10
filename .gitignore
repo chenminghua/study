@@ -2,3 +2,6 @@
 *.class
 targets/
 .setttings/
+.idea/
+*.gitignore
+*.iml
