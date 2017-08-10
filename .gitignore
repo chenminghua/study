@@ -1,2 +1,4 @@
 *.log
 *.class
+targets/
+.setttings/
