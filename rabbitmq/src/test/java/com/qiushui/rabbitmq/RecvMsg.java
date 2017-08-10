@@ -1,5 +1,6 @@
 package com.qiushui.rabbitmq;
 
+import com.qiushui.common.utils.P;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -34,7 +35,7 @@ public class RecvMsg {
         while (true) {
             QueueingConsumer.Delivery delivery = consumer.nextDelivery();
             String message = new String(delivery.getBody());
-            System.out.println(" [x] Received '" + message + "'");
+            P.rintln(" [x] Received '" + message + "'");
         }
     }
 }

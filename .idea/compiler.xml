@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="general" />
         <module name="rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="1.5" />
+      <module name="general" target="1.8" />
       <module name="rabbitmq" target="1.5" />
       <module name="study" target="1.5" />
     </bytecodeTargetLevel>
