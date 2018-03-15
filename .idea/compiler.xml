@@ -7,15 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="designPattern" />
         <module name="general" />
+        <module name="generalEmail" />
+        <module name="mybatis" />
         <module name="rabbitmq" />
+        <module name="springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.5" />
+      <module name="common" target="1.6" />
+      <module name="designPattern" target="1.6" />
       <module name="general" target="1.8" />
-      <module name="rabbitmq" target="1.5" />
-      <module name="study" target="1.5" />
+      <module name="generalEmail" target="1.6" />
+      <module name="mybatis" target="1.6" />
+      <module name="rabbitmq" target="1.6" />
+      <module name="springboot" target="1.6" />
+      <module name="study" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,6 @@
+com\minghua\ramq\config\RabbitMQConfig.class
+com\minghua\ramq\config\RabbitMQConfig$1.class
+com\minghua\ramq\service\ProductService.class
+com\minghua\ramq\Application.class
+com\minghua\ramq\model\Product.class
+com\minghua\ramq\service\impl\ProductServiceImpl.class

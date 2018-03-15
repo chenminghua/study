@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: minghua.optional.OptionalTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.06 sec <<< FAILURE! - in minghua.optional.OptionalTest
+testOptional(minghua.optional.OptionalTest)  Time elapsed: 0.055 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at minghua.common.utils.P.rintln(P.java:12)
+	at minghua.optional.OptionalTest.testOptional(OptionalTest.java:22)
+
