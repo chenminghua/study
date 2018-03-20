@@ -1,9 +1,0 @@
-com\minghua\springboot\jpa\model\User.class
-com\minghua\springboot\config\CustomConfig.class
-com\minghua\springboot\App.class
-com\minghua\springboot\jpa\web\MySqlController.class
-com\minghua\springboot\config\RestTemplateConfig.class
-com\minghua\springboot\controller\HelloController.class
-com\minghua\springboot\jpa\model\Departement.class
-com\minghua\springboot\filter\CustomFilter.class
-com\minghua\springboot\jpa\dao\UserRepository.class
