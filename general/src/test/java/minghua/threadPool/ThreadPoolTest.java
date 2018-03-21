@@ -1,6 +1,6 @@
 package minghua.threadPool;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 import org.junit.Test;
 
 import java.util.concurrent.ExecutorService;

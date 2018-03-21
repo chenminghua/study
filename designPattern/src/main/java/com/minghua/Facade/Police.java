@@ -1,6 +1,6 @@
 package com.minghua.Facade;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 
 /**
  * @author minghua.chen

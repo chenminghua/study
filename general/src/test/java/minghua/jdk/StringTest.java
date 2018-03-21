@@ -1,4 +1,4 @@
-package minghua.common.jdk;
+package minghua.jdk;
 
 
 import org.junit.Assert;

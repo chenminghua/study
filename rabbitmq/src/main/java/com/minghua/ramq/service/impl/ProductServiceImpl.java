@@ -3,7 +3,7 @@ package com.minghua.ramq.service.impl;
 import com.minghua.ramq.config.RabbitMQConfig;
 import com.minghua.ramq.model.Product;
 import com.minghua.ramq.service.ProductService;
-import minghua.common.utils.P;
+import minghua.utils.P;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.support.CorrelationData;
 import org.springframework.stereotype.Service;

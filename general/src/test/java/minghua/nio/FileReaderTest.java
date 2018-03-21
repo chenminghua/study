@@ -1,6 +1,6 @@
 package minghua.nio;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 import org.junit.Assert;
 import org.junit.Test;
 

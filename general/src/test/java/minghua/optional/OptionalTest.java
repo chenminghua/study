@@ -1,6 +1,6 @@
 package minghua.optional;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 import org.junit.Test;
 
 /**

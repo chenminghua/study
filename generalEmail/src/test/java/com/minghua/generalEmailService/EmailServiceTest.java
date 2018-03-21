@@ -2,7 +2,7 @@ package com.minghua.generalEmailService;
 
 import com.minghua.generalEmail.service.EmailService;
 import com.minghua.generalEmail.service.EmailServiceImpl;
-import minghua.common.utils.P;
+import minghua.utils.P;
 import org.junit.Test;
 
 import java.util.HashMap;

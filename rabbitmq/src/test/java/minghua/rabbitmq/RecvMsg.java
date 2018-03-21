@@ -1,6 +1,6 @@
 package minghua.rabbitmq;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;

@@ -1,4 +1,4 @@
-package minghua.common.stopWatch;
+package minghua.stopWatch;
 
 import org.junit.Test;
 import org.springframework.util.StopWatch;

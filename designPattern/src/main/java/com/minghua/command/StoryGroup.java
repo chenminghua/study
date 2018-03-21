@@ -1,6 +1,6 @@
 package com.minghua.command;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 
 public class StoryGroup extends Group {
     @Override

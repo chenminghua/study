@@ -1,4 +1,4 @@
-package minghua.common.utils;
+package minghua.utils;
 
 /**
  * @author minghua.chen

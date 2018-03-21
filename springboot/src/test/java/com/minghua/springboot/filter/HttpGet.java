@@ -1,6 +1,6 @@
 package com.minghua.springboot.filter;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;

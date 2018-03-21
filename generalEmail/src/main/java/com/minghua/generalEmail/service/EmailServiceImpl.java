@@ -1,6 +1,6 @@
 package com.minghua.generalEmail.service;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 
 import java.util.Map;
 

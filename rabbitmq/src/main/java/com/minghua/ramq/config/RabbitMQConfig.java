@@ -1,6 +1,6 @@
 package com.minghua.ramq.config;
 
-import minghua.common.utils.P;
+import minghua.utils.P;
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
