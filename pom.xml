@@ -16,6 +16,8 @@
         <module>springboot</module>
         <module>generalEmail</module>
         <module>designPattern</module>
+        <module>dubboprovider</module>
+        <module>dubboconsumer</module>
     </modules>
 
     <parent>

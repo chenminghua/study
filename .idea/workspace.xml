@@ -2,103 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23cb67e0-7bbc-4322-b729-fb5eb60043db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/minghua/common/httpclient/ClientConfiguration.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/src/test/java/minghua/common/jdk/StringTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/src/test/resources/log4j.prpperties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/LetterProcess.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/LetterProcessImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/ModenPostOffice.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/Police.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/AbstractHumanFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/FemaleHumanFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/Human.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/HumanEnum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/HumanFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/MaleHumanFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/NvWa.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/WhiteFemaleHuman.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/WhiteHuman.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/YelloHuman.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/YelloMaleHuman.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/Father.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/Decorator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/HighScoreDecorator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/SortDecorator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/TeacherLikeDecorator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/report/FouthGradeReport.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/report/SchooleReport.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/AddFunctionCommand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/CodeGroup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Command.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Group.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Invoker.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/PageGroup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/StoryGroup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Branch.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Crop.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Leaf.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/Celebrate.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/HappyPeople.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/PassengerByAir.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/PassengerByTrain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/main/java/minghua/threadPool/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Black.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Child.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Human.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/HumanTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Parent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/ParentChildTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/threadPool/ThreadPoolTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/Card.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/Tag.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/TestCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/generalEmail/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/generalEmail/src/main/java/com/minghua/generalEmail/service/EmailService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/generalEmail/src/main/java/com/minghua/generalEmail/service/EmailServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/generalEmail/src/test/java/com/minghua/generalEmailService/EmailServiceTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mybatis/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/config/RabbitMQConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/model/Product.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/service/ProductService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/service/impl/ProductServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/test/java/com/minghua/ramq/Runner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/test/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/App.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/config/CustomConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/config/RestTemplateConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/controller/HelloController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/filter/CustomFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/jpa/dao/UserRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/jpa/model/Departement.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/jpa/model/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/jpa/web/MySqlController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/test/java/com/minghua/springboot/filter/FilterThreadSafeTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springboot/src/test/java/com/minghua/springboot/filter/HttpGet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboconsumer/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboconsumer/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/DubboProperties.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/ServerApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/domain/City.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/CityService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/impl/CityServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" afterPath="$PROJECT_DIR$/common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/qiushui/common/utils/P.java" afterPath="$PROJECT_DIR$/common/src/main/java/minghua/common/utils/P.java" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/qiushui/common/nio/FileReaderTest.java" afterPath="$PROJECT_DIR$/common/src/test/java/minghua/common/nio/FileReaderTest.java" />
-      <change beforePath="$PROJECT_DIR$/general/pom.xml" afterPath="$PROJECT_DIR$/general/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/general/src/test/java/com/qiushui/nio/FileReaderTest.java" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/nio/FileReaderTest.java" />
-      <change beforePath="$PROJECT_DIR$/general/src/test/java/com/qiushui/optional/OptionalTest.java" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/optional/OptionalTest.java" />
-      <change beforePath="$PROJECT_DIR$/general/src/test/java/com/qiushui/optional/User.java" afterPath="$PROJECT_DIR$/general/src/test/java/minghua/optional/User.java" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/pom.xml" afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/qiushui/rabbitmq/RecvMsg.java" afterPath="$PROJECT_DIR$/rabbitmq/src/test/java/minghua/rabbitmq/RecvMsg.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/qiushui/rabbitmq/SendMsg.java" afterPath="$PROJECT_DIR$/rabbitmq/src/test/java/minghua/rabbitmq/SendMsg.java" />
-      <change beforePath="$PROJECT_DIR$/study.iml" afterPath="$PROJECT_DIR$/study.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,6 +27,8 @@
     <ignored path="$PROJECT_DIR$/springboot/target/" />
     <ignored path="$PROJECT_DIR$/generalEmail/target/" />
     <ignored path="$PROJECT_DIR$/designPattern/target/" />
+    <ignored path="$PROJECT_DIR$/dubboprovider/target/" />
+    <ignored path="$PROJECT_DIR$/dubboconsumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,56 +51,123 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Crop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Crop.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="ServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/ServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leaf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Leaf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Branch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Branch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#173#179#0" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Client.java">
+      <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/domain/City.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="26" column="83" lean-forward="false" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+            <state relative-caret-position="253">
+              <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+              <folding>
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/impl/CityServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityDubboConsumeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/service/CityDubboConsumeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/CityService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/domain/City.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-857">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/service/CityService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/ClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,66 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IStrategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/strategy/IStrategy.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GivenGreenLight.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/strategy/GivenGreenLight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/strategy/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZhaoYun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/strategy/ZhaoYun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designPattern/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="74" column="26" lean-forward="false" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -266,6 +197,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getCarModel</find>
+      <find>get</find>
+      <find>code</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -277,57 +215,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/ModenPostOffice.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/Client.java" />
-        <option value="$PROJECT_DIR$/general/src/main/java/minghua/threadPool/README.md" />
-        <option value="$PROJECT_DIR$/general/src/test/java/minghua/threadPool/ThreadPoolTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/httpclient/ClientConfiguration.java" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot/src/main/java/com/minghua/springboot/config/RestTemplateConfig.java" />
-        <option value="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Human.java" />
-        <option value="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Black.java" />
-        <option value="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/HumanTest.java" />
-        <option value="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Child.java" />
-        <option value="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/ParentChildTest.java" />
-        <option value="$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/Tag.java" />
-        <option value="$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/Card.java" />
-        <option value="$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/TestCard.java" />
-        <option value="$PROJECT_DIR$/general/pom.xml" />
-        <option value="$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Parent.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/SendMsg.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/EmailSend.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/SmsSend.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/SendFactory.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/TestSend.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Group.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/StoryGroup.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/PageGroup.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/CodeGroup.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Invoker.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Command.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/AddFunctionCommand.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Client.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/CelebrateSpringFestival.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/PassengerByAir.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/PassengerByTrain.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/Celebrate.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/HappyPeople.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/FouthGradeReport.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/SchooleReport.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/HighScoreDecorator.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/SortDecorator.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/Decorator.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/report/SchooleReport.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/SortDecorator.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/TeacherLikeDecorator.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/Father.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/proxy/KindWoman.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Crop.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Leaf.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Branch.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/TestCalled.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/Stock.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/AbstractColleague.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/Sale.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/Purchase.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/AbstractMediator.java" />
+        <option value="$PROJECT_DIR$/general/src/main/java/minghua/futuretask/README.md" />
+        <option value="$PROJECT_DIR$/general/src/main/java/minghua/futuretask/Client.java" />
+        <option value="$PROJECT_DIR$/general/src/main/java/minghua/futuretask/RealData.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/ternary/readme.md" />
+        <option value="$PROJECT_DIR$/common/src/test/java/minghua/common/nio/FileReaderTest.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/override/Base.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/override/Sub.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/override/TestOverride.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/override/readme.md" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/ternary/Ternary.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/uid.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/SerializationUtils.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/User.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/TestSerialize.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/readme.md" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/useScript/Demo.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/useScript/model.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Client.java" />
+        <option value="$PROJECT_DIR$/general/src/main/java/minghua/logging/TestLogging.java" />
+        <option value="$PROJECT_DIR$/general/src/main/java/minghua/logging/debug/TestDebugLogging.java" />
+        <option value="$PROJECT_DIR$/general/src/main/java/minghua/logging/info/TestInfoLogging.java" />
+        <option value="$PROJECT_DIR$/general/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubboprovider/domain/City.java" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubboprovider/ServerApplication.java" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubboprovider/service/CityService.java" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubboprovider/service/impl/CityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboprovider/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboprovider/domain/City.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboprovider/service/CityDubboConsumeService.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboconsumer/service/CityDubboConsumeService.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboserver/service/CityDubboConsumeService.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboclient/domain/City.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboclient/service/CityDubboService.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboclient/service/CityDubboConsumeService.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboclient/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubboconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubboprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/domain/City.java" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/CityService.java" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/impl/CityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/service/CityService.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/service/CityDubboConsumeService.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/ClientApplication.java" />
       </list>
     </option>
   </component>
@@ -392,11 +330,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="125" />
-    <option name="y" value="161" />
-    <option name="width" value="2182" />
-    <option name="height" value="1327" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="29" />
+    <option name="y" value="14" />
+    <option name="width" value="1444" />
+    <option name="height" value="529" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -663,6 +601,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -673,42 +614,150 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboconsumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboconsumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboconsumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboconsumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-learning-example/pom.xml" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22242647" />
     <property name="LastSelectedSalesforceComponentKey" value="ApexClass" />
@@ -717,7 +766,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\study\dubboconsumer\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="minghua" />
       <recent name="com.minghua.springboot" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -727,11 +780,11 @@
       <recent name="com.qiushui.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\study\dubboprovider" />
       <recent name="D:\github\study\general\src\test\java\minghua\inheritance" />
       <recent name="E:\github\study\rabbitmq\src\test\resources" />
       <recent name="E:\github\study\springboot\src\main\java\com\minghua\springboot\config" />
       <recent name="E:\github\study\general\src\test\java\com\qiushui\optional" />
-      <recent name="E:\github\study\rabbitmq\src\test\java\com\qiushui\rabbitmq" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -746,21 +799,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Client">
+  <component name="RunManager" selected="Application.ServerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Celebrate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.minghua.templateMethod.*" />
+          <option name="PATTERN" value="com.minghua.dubbo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.minghua.templateMethod.Celebrate" />
+      <option name="MAIN_CLASS_NAME" value="com.minghua.dubboserver.ClientApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -769,17 +822,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="designPattern" />
+      <module name="dubboconsumer" />
       <envs />
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.minghua.command.*" />
+          <option name="PATTERN" value="com.minghua.dubbo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.minghua.command.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.minghua.dubbo.ClientApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -788,17 +841,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="designPattern" />
+      <module name="dubboconsumer" />
       <envs />
     </configuration>
-    <configuration name="Father" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.minghua.adapter.decorator.*" />
+          <option name="PATTERN" value="com.minghua.dubbo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.minghua.adapter.Father" />
+      <option name="MAIN_CLASS_NAME" value="com.minghua.dubbo.ServerApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -807,7 +860,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="designPattern" />
+      <module name="dubboprovider" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -824,20 +877,20 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="Client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDebugLogging.infoLoggingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.minghua.composite.*" />
+          <option name="PATTERN" value="minghua.logging.debug.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="designPattern" />
+      <module name="general" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.minghua.composite" />
-      <option name="MAIN_CLASS_NAME" value="com.minghua.composite.Client" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="minghua.logging.debug" />
+      <option name="MAIN_CLASS_NAME" value="minghua.logging.debug.TestDebugLogging" />
+      <option name="METHOD_NAME" value="infoLoggingTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -849,19 +902,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Client.called" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInfoLogging.infoLoggingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.minghua.composite.*" />
+          <option name="PATTERN" value="minghua.logging.info.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="designPattern" />
+      <module name="general" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.minghua.composite" />
-      <option name="MAIN_CLASS_NAME" value="com.minghua.composite.Client" />
-      <option name="METHOD_NAME" value="called" />
+      <option name="PACKAGE_NAME" value="minghua.logging.info" />
+      <option name="MAIN_CLASS_NAME" value="minghua.logging.info.TestInfoLogging" />
+      <option name="METHOD_NAME" value="infoLoggingTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -935,19 +988,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Celebrate" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Father" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Client.called" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Client" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestDebugLogging.infoLoggingTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestInfoLogging.infoLoggingTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ServerApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ClientApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ClientApplication (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Client" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Client.called" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Father" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Celebrate" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ClientApplication (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServerApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ClientApplication" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestInfoLogging.infoLoggingTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestDebugLogging.infoLoggingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -978,58 +1031,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Client - 2018.03.15 at 19h 34m 44s.xml">
-      <configuration name="Client" configurationId="JUnit" />
+    <history-entry file="TestDebugLogging_infoLoggingTest - 2018.03.26 at 11h 54m 37s.xml">
+      <configuration name="TestDebugLogging.infoLoggingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Client_called - 2018.03.15 at 19h 32m 47s.xml">
-      <configuration name="Client.called" configurationId="JUnit" />
+    <history-entry file="TestInfoLogging_infoLoggingTest - 2018.03.26 at 11h 55m 30s.xml">
+      <configuration name="TestInfoLogging.infoLoggingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCard_testCard - 2017.12.06 at 23h 24m 37s.xml">
-      <configuration name="TestCard.testCard" configurationId="JUnit" />
+    <history-entry file="TestLogging - 2018.03.26 at 10h 12m 38s.xml">
+      <configuration name="TestLogging" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCard_testCard - 2017.12.06 at 23h 33m 47s.xml">
-      <configuration name="TestCard.testCard" configurationId="JUnit" />
+    <history-entry file="TestLogging_loggingTest - 2018.03.26 at 10h 04m 08s.xml">
+      <configuration name="TestLogging.loggingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCard_testCard - 2017.12.06 at 23h 34m 27s.xml">
-      <configuration name="TestCard.testCard" configurationId="JUnit" />
+    <history-entry file="TestLogging_loggingTest - 2018.03.26 at 10h 11m 56s.xml">
+      <configuration name="TestLogging.loggingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPoolTest_testFixedThreadPool - 2017.10.20 at 09h 19m 37s.xml">
-      <configuration name="ThreadPoolTest.testFixedThreadPool" configurationId="JUnit" />
+    <history-entry file="TestLogging_loggingTest - 2018.03.26 at 10h 12m 20s.xml">
+      <configuration name="TestLogging.loggingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPoolTest_testFixedThreadPool - 2017.10.20 at 09h 20m 47s.xml">
-      <configuration name="ThreadPoolTest.testFixedThreadPool" configurationId="JUnit" />
+    <history-entry file="TestLogging_loggingTest - 2018.03.26 at 10h 16m 06s.xml">
+      <configuration name="TestLogging.loggingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPoolTest_testScheduledThreadPool - 2017.10.20 at 09h 28m 28s.xml">
-      <configuration name="ThreadPoolTest.testScheduledThreadPool" configurationId="JUnit" />
+    <history-entry file="TestLogging_loggingTest - 2018.03.26 at 10h 19m 35s.xml">
+      <configuration name="TestLogging.loggingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPoolTest_testSingleThreadExecutor - 2017.10.20 at 09h 29m 13s.xml">
-      <configuration name="ThreadPoolTest.testSingleThreadExecutor" configurationId="JUnit" />
+    <history-entry file="TestLogging_loggingTest - 2018.03.26 at 10h 26m 56s.xml">
+      <configuration name="TestLogging.loggingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPoolTest_testSingleThreadExecutor - 2017.10.20 at 09h 29m 44s.xml">
-      <configuration name="ThreadPoolTest.testSingleThreadExecutor" configurationId="JUnit" />
+    <history-entry file="TestLogging_loggingTest - 2018.03.26 at 10h 28m 19s.xml">
+      <configuration name="TestLogging.loggingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="8646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2360179" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23489933" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21005155" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33221477" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32603094" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51159793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24871135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35277778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31302083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3530928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48324743" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1054,13 +1108,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/Father.java</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/decorator/Father.java</url>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1074,418 +1128,367 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Parent.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/SerializationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general/src/test/java/minghua/inheritance/HumanTest.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/TestSerialize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/Tag.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="357">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/TestCard.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/ternary/Ternary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/ternary/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general/src/test/java/thinkingjava/c4/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Child.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Black.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/general/src/test/java/minghua/inheritance/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/EmailSend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/SmsSend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/CodeGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/PageGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/StoryGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/TestSend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/factory/staticFactory/SendFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/AddFunctionCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Client.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/override/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/Invoker.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/override/Sub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/CelebrateSpringFestival.java" />
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/PassengerByTrain.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/override/TestOverride.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/DecoratorFather.java" />
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/HappyPeople.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/override/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/PassengerByAir.java">
+    <entry file="jar://D:/myprogramfiles/java/java8/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        <state relative-caret-position="10752">
+          <caret line="554" column="13" lean-forward="false" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/templateMethod/Celebrate.java">
+    <entry file="jar://D:/myprogramfiles/java/java8/jre/lib/ext/nashorn.jar!/jdk/nashorn/api/scripting/NashornScriptEngineFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="-3188">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/proxy/KindWoman.java">
+    <entry file="jar://D:/myprogramfiles/java/java8/src.zip!/javax/script/ScriptEngineFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="169">
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/report/SchooleReport.java">
+    <entry file="jar://D:/myprogramfiles/java/java8/src.zip!/javax/script/ScriptEngineManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="7875">
+          <caret line="411" column="33" lean-forward="false" selection-start-line="411" selection-start-column="33" selection-end-line="411" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/report/FouthGradeReport.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/useScript/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#448#449#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/HighScoreDecorator.java">
+    <entry file="file://$PROJECT_DIR$/general/src/main/resources/logback.groovy" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/useScript/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#190#191#0" expanded="false" />
-            <element signature="e#215#216#0" expanded="false" />
-            <element signature="e#267#268#0" expanded="false" />
-            <element signature="e#328#329#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/SortDecorator.java">
+    <entry file="jar://D:/dev-env/maven_repo/m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#181#182#0" expanded="false" />
-            <element signature="e#206#207#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
-            <element signature="e#306#307#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/Decorator.java">
+    <entry file="jar://D:/dev-env/maven_repo/m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar!/ch/qos/logback/classic/util/ContextInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-            <element signature="e#311#312#0" expanded="false" />
-            <element signature="e#410#411#0" expanded="false" />
-            <element signature="e#444#445#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/decorator/TeacherLikeDecorator.java">
+    <entry file="jar://D:/dev-env/maven_repo/m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar!/ch/qos/logback/classic/joran/action/ConfigurationAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#195#196#0" expanded="false" />
-            <element signature="e#220#221#0" expanded="false" />
-            <element signature="e#249#250#0" expanded="false" />
-            <element signature="e#296#297#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="461">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/adapter/Father.java">
+    <entry file="file://$PROJECT_DIR$/general/testFile-20180326T094626.log" />
+    <entry file="jar://D:/dev-env/maven_repo/m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/LoggerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/LetterProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/LetterProcessImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/Police.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/ModenPostOffice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Crop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="156">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="74" column="26" lean-forward="false" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="252">
+          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Leaf.java">
+    <entry file="file://$PROJECT_DIR$/general/logFile.log" />
+    <entry file="file://$PROJECT_DIR$/general/testFile-20180326T095026.log" />
+    <entry file="file://$PROJECT_DIR$/general/catalina.base_IS_UNDEFINED/logs/debug.log" />
+    <entry file="file://$PROJECT_DIR$/general/catalina.base_IS_UNDEFINED/logs/error.log" />
+    <entry file="file://$PROJECT_DIR$/general/catalina.base_IS_UNDEFINED/logs/info.log" />
+    <entry file="file://$PROJECT_DIR$/general/logs/error.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Branch.java">
+    <entry file="file://$PROJECT_DIR$/general/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#173#179#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/composite/Client.java">
+    <entry file="file://$PROJECT_DIR$/general/logs/info.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="83" lean-forward="false" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/strategy/ZhaoYun.java">
+    <entry file="file://$PROJECT_DIR$/general/logs/debug.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/strategy/IStrategy.java">
+    <entry file="file://$PROJECT_DIR$/general/src/main/java/minghua/logging/info/TestInfoLogging.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/src/main/java/minghua/logging/debug/TestDebugLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/src/main/java/minghua/logging/TestLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/DubboProperties.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboserver/domain/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="69" column="32" lean-forward="false" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/strategy/Context.java">
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboserver/ClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboserver/service/CityDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubboserver/service/CityDubboConsumeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/minghua/strategy/GivenGreenLight.java">
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/domain/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding>
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/domain/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-857">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/CityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/service/CityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/service/CityDubboConsumeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/ClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/impl/CityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1507,7 +1510,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Invalid</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
