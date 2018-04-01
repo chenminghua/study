@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23cb67e0-7bbc-4322-b729-fb5eb60043db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboconsumer/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboconsumer/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/DubboProperties.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/ServerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/domain/City.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/CityService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/service/impl/CityServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dubboprovider/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,20 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/ServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/com/minghua/dubbo/domain/City.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -175,11 +148,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -215,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/TestCalled.java" />
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/Stock.java" />
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/AbstractColleague.java" />
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/mediator/v2/Sale.java" />
@@ -266,6 +248,7 @@
         <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/service/CityService.java" />
         <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/service/CityDubboConsumeService.java" />
         <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/com/minghua/dubbo/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -330,7 +313,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="29" />
     <option name="y" value="14" />
     <option name="width" value="1444" />
@@ -1066,7 +1049,7 @@
     <option name="totallyTimeSpent" value="8646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1056" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1128,13 +1111,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/SerializationUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/uid/TestSerialize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1489,6 +1465,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding />
         </state>
       </provider>
