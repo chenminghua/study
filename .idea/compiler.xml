@@ -24,6 +24,7 @@
       <module name="dubboprovider" target="1.6" />
       <module name="general" target="1.8" />
       <module name="generalEmail" target="1.6" />
+      <module name="jaxrs" target="1.6" />
       <module name="mybatis" target="1.6" />
       <module name="rabbitmq" target="1.6" />
       <module name="springboot" target="1.6" />

@@ -18,6 +18,7 @@
         <module>designPattern</module>
         <module>dubboprovider</module>
         <module>dubboconsumer</module>
+        <module>jaxrs</module>
     </modules>
 
     <parent>
