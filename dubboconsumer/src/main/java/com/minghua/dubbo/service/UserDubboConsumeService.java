@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class UserDubboConsumeService {
-    @Reference(version = "1.0")
+    @Reference(version = "1.0", group = "jack")
     UserService userService;
 
     public User getUserByName(String name){

@@ -19,12 +19,8 @@ public class ClientApplication {
 
         UserDubboConsumeService userService = run.getBean(UserDubboConsumeService.class);
         User user1 = userService.getUserByName("qiushui");
-        User user2 = userService.getUserByName("laozi");
+        User user2 = userService.getUserByName("jack");
         System.out.println(user1);
-        if (null != user2) {
-            System.out.println(user2);
-        } else {
-            System.out.println("user2 为空！");
-        }
+        System.out.println(user2);
     }
 }
