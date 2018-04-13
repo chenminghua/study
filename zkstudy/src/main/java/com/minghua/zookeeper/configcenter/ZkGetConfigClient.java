@@ -1,4 +1,4 @@
-package minghua.zookeeper;
+package com.minghua.zookeeper.configcenter;
 
 import org.I0Itec.zkclient.IZkDataListener;
 import org.I0Itec.zkclient.ZkClient;

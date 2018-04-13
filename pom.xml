@@ -19,6 +19,7 @@
         <module>dubboprovider</module>
         <module>dubboconsumer</module>
         <module>jaxrs</module>
+        <module>zkstudy</module>
     </modules>
 
     <parent>

@@ -1,4 +1,4 @@
-package minghua.zookeeper;
+package com.minghua.zookeeper.configcenter;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

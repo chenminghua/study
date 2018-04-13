@@ -1,4 +1,4 @@
-package minghua.zookeeper;
+package com.minghua.zookeeper.configcenter;
 
 public class ZkConfigTest {
     public static void main(String[] args) {
