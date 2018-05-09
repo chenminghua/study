@@ -130,7 +130,7 @@ public class ClientConfiguration {
         HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory = new ManagedHttpClientConnectionFactory(
                 requestWriterFactory, responseParserFactory);
 
-        // Client HTTP connection objects when fully initialized can be bound to
+        // CalledTest HTTP connection objects when fully initialized can be bound to
         // an arbitrary network socket. The process of network socket initialization,
         // its connection to a remote address and binding to a local one is controlled
         // by a connection socket factory.

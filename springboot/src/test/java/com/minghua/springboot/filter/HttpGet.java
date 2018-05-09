@@ -1,6 +1,5 @@
 package com.minghua.springboot.filter;
 
-import minghua.utils.P;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -48,13 +47,13 @@ public class HttpGet implements Runnable{
             int statusCode = httpResponse.getStatusLine().getStatusCode();
             if (statusCode != HttpStatus.SC_OK)
             {
-                P.rintln("Method failed:" + httpResponse.getStatusLine());
+                System.out.println("Method failed:" + httpResponse.getStatusLine());
             }
 
             // 获取返回数据
             HttpEntity entity = httpResponse.getEntity();
             String body = EntityUtils.toString(entity, Charset.forName("UTF-8"));
-            //P.rintln(entity.getContent().);
+            //System.out.rintln(entity.getContent().);
 //            if (entity != null)
 //            {
 //                EntityUtils.consume(entity);

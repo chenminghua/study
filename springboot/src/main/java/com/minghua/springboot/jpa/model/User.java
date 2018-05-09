@@ -1,6 +1,7 @@
 package com.minghua.springboot.jpa.model;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
@@ -13,6 +14,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "users")
 @Data
+@NoArgsConstructor
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -22,4 +24,10 @@ public class User {
     @ManyToOne
     @JoinColumn(name = "dept")
     private Departement dept;
+
+    public User(String name, String email, Departement dept) {
+        this.name = name;
+        this.email = email;
+        this.dept = dept;
+    }
 }
