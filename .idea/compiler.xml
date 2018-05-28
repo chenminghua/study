@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alipay" />
         <module name="common" />
         <module name="designPattern" />
         <module name="dubboconsumer" />
@@ -13,22 +15,29 @@
         <module name="general" />
         <module name="generalEmail" />
         <module name="mybatis" />
-        <module name="rabbitmq" />
+        <module name="rabbitmqconsumer01" />
+        <module name="rabbitmqconsumer02" />
+        <module name="rabbitmqproducer" />
         <module name="springboot" />
+        <module name="zkstudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.6" />
+      <module name="alipay" target="1.6" />
+      <module name="common" target="8" />
       <module name="designPattern" target="1.6" />
       <module name="dubboconsumer" target="1.6" />
       <module name="dubboprovider" target="1.6" />
       <module name="general" target="1.8" />
       <module name="generalEmail" target="1.6" />
-      <module name="jaxrs" target="1.6" />
       <module name="mybatis" target="1.6" />
       <module name="rabbitmq" target="1.6" />
+      <module name="rabbitmqconsumer01" target="1.6" />
+      <module name="rabbitmqconsumer02" target="1.6" />
+      <module name="rabbitmqproducer" target="1.6" />
       <module name="springboot" target="1.6" />
       <module name="study" target="1.6" />
+      <module name="zkstudy" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,6 +2,9 @@
 *.class
 targets/
 .setttings/
+.idea/
 .idea/*
 *.gitignore
 *.iml
+/logs
+/springboot/target/

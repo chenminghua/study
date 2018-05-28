@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/jaxrs/pom.xml" />
+        <option value="$PROJECT_DIR$/wechatpay/pom.xml" />
       </set>
     </option>
   </component>
