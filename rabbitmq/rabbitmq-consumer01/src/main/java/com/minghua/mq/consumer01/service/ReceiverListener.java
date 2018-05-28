@@ -3,6 +3,7 @@ package com.minghua.mq.consumer01.service;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
+import ramq.model.Product;
 
 /**
  * @author: minghua
@@ -11,11 +12,11 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @RabbitListener(queues = "spring.demo")
-public class ReceiverListener {
+public class ReceiverListener{
 
     @RabbitHandler
-    public void process(String hello) {
-        System.out.println("Receiver : " + hello);
+    public void process(Product product) {
+        System.out.println("Receiver : " + product);
     }
 
 

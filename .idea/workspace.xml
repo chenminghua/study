@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23cb67e0-7bbc-4322-b729-fb5eb60043db" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/service/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/config/CustomMVCConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/test/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/config/RabbitMQConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/minghua/ramq/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/test/java/ramq/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/minghua/rabbitmq/RecvMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/test/java/ramq/RecvMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/minghua/rabbitmq/SendMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/test/java/ramq/SendMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReceiverListener.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReceiverListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="71">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
@@ -118,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -126,6 +91,15 @@
               <folding>
                 <element signature="docComment;class#ProductServiceImpl#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/ramq/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -199,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wechatpay/src/main/java/com/minghua/utils/WXPayConstants.java" />
-        <option value="$PROJECT_DIR$/wechatpay/src/main/java/com/minghua/utils/MD5Util.java" />
         <option value="$PROJECT_DIR$/wechatpay/src/main/java/com/minghua/utils/index.jsp" />
         <option value="$PROJECT_DIR$/wechatpay/src/main/java/com/minghua/utils/WXPayController.java" />
         <option value="$PROJECT_DIR$/wechatpay/src/main/java/com/minghua/utils/UnifiedOrderRespose.java" />
@@ -244,12 +216,14 @@
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/service/ProductService.java" />
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/service/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java" />
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/service/Receiver.java" />
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/model/Product.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/ramq/model/Product.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java" />
       </list>
     </option>
   </component>
@@ -635,6 +609,27 @@
               <item name="rabbitmq-consumer01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -760,21 +755,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github\study\rabbitmq\rabbitmq-producer\src\main\resources" />
-      <recent name="D:\github\study\dubboconsumer\src\main\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ramq" />
       <recent name="minghua" />
       <recent name="com.minghua.springboot" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.minghua.mq.consumer01.model" />
-      <recent name="com.minghua.mq.consumer01.config" />
-      <recent name="com.minghua.dubbo.service" />
-      <recent name="com.minghua.dubbo.domain" />
-      <recent name="com.qiushui.nio" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github\study\rabbitmq\rabbitmq-consumer02\src\main\java\com\minghua\mq\consumer01\service" />
@@ -782,6 +766,17 @@
       <recent name="D:\github\study\rabbitmq\rabbitmq-consumer02\src\main\resources" />
       <recent name="D:\github\study\rabbitmq\rabbitmq-producer\src\test" />
       <recent name="D:\github\study\rabbitmq\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+      <recent name="com.minghua.mq.consumer01.model" />
+      <recent name="com.minghua.mq.consumer01.config" />
+      <recent name="com.minghua.dubbo.service" />
+      <recent name="com.minghua.dubbo.domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\study\rabbitmq\rabbitmq-producer\src\main\resources" />
+      <recent name="D:\github\study\dubboconsumer\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1034,11 +1029,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50507414" side_tool="true" weight="0.3456376" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49492583" visible="true" weight="0.3888889" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49492583" visible="true" weight="0.4390681" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39964157" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60305345" visible="true" weight="0.26273242" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60305345" visible="true" weight="0.26273242" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32795697" />
       <window_info id="Structure" order="1" sideWeight="0.39694658" side_tool="true" weight="0.26932085" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1056,7 +1052,6 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.32881355" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Query Editor" order="2" />
@@ -1132,7 +1127,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/general/src/main/java/minghua/synchronization/Const.java" />
     <entry file="file://$PROJECT_DIR$/general/src/main/java/minghua/synchronization/Demo00.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1440,15 +1434,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java">
+    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/ramq/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="232">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1458,6 +1447,18 @@
           <caret line="44" column="97" selection-start-line="44" selection-start-column="97" selection-end-line="44" selection-end-column="97" />
           <folding>
             <element signature="docComment;class#ProductServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
