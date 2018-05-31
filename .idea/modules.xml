@@ -5,15 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/alipay/alipay.iml" filepath="$PROJECT_DIR$/alipay/alipay.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/designPattern/designPattern.iml" filepath="$PROJECT_DIR$/designPattern/designPattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubboconsumer/dubboconsumer.iml" filepath="$PROJECT_DIR$/dubboconsumer/dubboconsumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubboprovider/dubboprovider.iml" filepath="$PROJECT_DIR$/dubboprovider/dubboprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboconsumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubboconsumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboprovider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubboprovider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/general/general.iml" filepath="$PROJECT_DIR$/general/general.iml" />
       <module fileurl="file://$PROJECT_DIR$/generalEmail/generalEmail.iml" filepath="$PROJECT_DIR$/generalEmail/generalEmail.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/rabbitmqconsumer01.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/rabbitmqconsumer01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/rabbitmqconsumer02.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/rabbitmqconsumer02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-producer/rabbitmqproducer.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/rabbitmqproducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/rabbitmq-consumer01.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/rabbitmq-consumer01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/rabbitmq-consumer02.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/rabbitmq-consumer02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-producer/rabbitmq-producer.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/rabbitmq-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
       <module fileurl="file://$PROJECT_DIR$/zkstudy/zkstudy.iml" filepath="$PROJECT_DIR$/zkstudy/zkstudy.iml" />

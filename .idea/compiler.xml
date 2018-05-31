@@ -10,11 +10,16 @@
         <module name="alipay" />
         <module name="common" />
         <module name="designPattern" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
         <module name="dubboconsumer" />
         <module name="dubboprovider" />
         <module name="general" />
         <module name="generalEmail" />
         <module name="mybatis" />
+        <module name="rabbitmq-consumer01" />
+        <module name="rabbitmq-consumer02" />
+        <module name="rabbitmq-producer" />
         <module name="rabbitmqconsumer01" />
         <module name="rabbitmqconsumer02" />
         <module name="rabbitmqproducer" />
@@ -26,12 +31,17 @@
       <module name="alipay" target="1.6" />
       <module name="common" target="8" />
       <module name="designPattern" target="1.6" />
+      <module name="dubbo-consumer" target="1.6" />
+      <module name="dubbo-provider" target="1.6" />
       <module name="dubboconsumer" target="1.6" />
       <module name="dubboprovider" target="1.6" />
       <module name="general" target="1.8" />
       <module name="generalEmail" target="1.6" />
       <module name="mybatis" target="1.6" />
       <module name="rabbitmq" target="1.6" />
+      <module name="rabbitmq-consumer01" target="1.6" />
+      <module name="rabbitmq-consumer02" target="1.6" />
+      <module name="rabbitmq-producer" target="1.6" />
       <module name="rabbitmqconsumer01" target="1.6" />
       <module name="rabbitmqconsumer02" target="1.6" />
       <module name="rabbitmqproducer" target="1.6" />

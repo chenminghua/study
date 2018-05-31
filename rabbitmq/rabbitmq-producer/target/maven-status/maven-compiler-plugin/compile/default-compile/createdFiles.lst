@@ -1,0 +1,8 @@
+ramq\model\Product.class
+ramq\service\ProductService.class
+ramq\Application.class
+ramq\service\impl\ProductServiceImpl.class
+ramq\config\RabbitMQConfig$1.class
+ramq\controller\ProductController.class
+ramq\config\CustomMVCConfiguration.class
+ramq\config\RabbitMQConfig.class

@@ -1,0 +1,7 @@
+com\minghua\mq\consumer01\App.class
+com\minghua\mq\consumer01\config\RabbitMQConfig.class
+com\minghua\mq\consumer01\service\Receiver.class
+com\minghua\mq\consumer01\service\ProductService.class
+com\minghua\mq\consumer01\service\impl\ProductServiceImpl.class
+com\minghua\mq\consumer01\config\RabbitMQConfig$1.class
+com\minghua\mq\consumer01\model\Product.class
