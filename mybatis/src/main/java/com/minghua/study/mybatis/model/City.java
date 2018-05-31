@@ -1,6 +1,9 @@
 package com.minghua.study.mybatis.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.io.Serializable;
@@ -12,11 +15,14 @@ import java.io.Serializable;
  */
 @Data
 @ToString
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class City implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private int id;
     private String name;
-    private String state;
+    private String province;
     private String country;
 }

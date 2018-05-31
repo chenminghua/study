@@ -1,23 +1,35 @@
 package com.minghua.study.mybatis.dao;
 
 import com.minghua.study.mybatis.model.City;
-import org.apache.ibatis.session.SqlSession;
-import org.springframework.stereotype.Component;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * @author: minghua
- * @date: 2018/5/30 16:11
+ * @date: 2018/5/31 10:06
  * @modified By:
  */
-@Component
-public class CityDao {
-    private final SqlSession sqlSession;
+public interface CityDao {
+    /**
+     * find bity by city name.
+     * @param name
+     * @return
+     */
+    City findByName(@Param("name") String name);
 
-    public CityDao(SqlSession sqlSession) {
-        this.sqlSession = sqlSession;
-    }
+    /**
+     * 查找指定省份的城市
+     * @param provinceName
+     * @return
+     */
+    List<City> listByProvinceName(@Param("provinceName") String provinceName);
 
-    public City selectCityById(long id) {
-        return this.sqlSession.selectOne("selectCityById", id);
-    }
+    /**
+     * save new city.
+     * @param city
+     * @return
+     */
+    boolean save(City city);
+
 }

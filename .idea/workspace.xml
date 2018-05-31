@@ -2,32 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23cb67e0-7bbc-4322-b729-fb5eb60043db" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/minghua/common/utils/P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/dao/CityDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/mapper/CityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/Departement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/CityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/dao/CityDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/Police.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/Police.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/WhiteFemaleHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/WhiteFemaleHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/WhiteHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/WhiteHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/YelloHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/YelloHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/YelloMaleHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/YelloMaleHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/CodeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/CodeGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/PageGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/PageGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/StoryGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/StoryGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generalEmail/src/main/java/com/minghua/generalEmail/service/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/generalEmail/src/main/java/com/minghua/generalEmail/service/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/minghua/common/utils/P.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/minghua/common/utils/P.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/target/test-classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq-producer/target/test-classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/dao/CityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/dao/CityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/mapper/CityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/AppTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,23 +69,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <file leaf-file-name="CityDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/dao/CityDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="432">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/App.java">
+      <file leaf-file-name="CityService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/service/CityService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -105,58 +90,11 @@
       <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/City.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="437">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/mapper/CityMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/dao/CityDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -195,10 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/objectClone/Person.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/imporvejava/objectClone/ClientTest.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/minghua/rabbitmq/SendMsg.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/test/java/minghua/rabbitmq/RecvMsg.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/minghua/ramq/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbitmq/src/test/resources/application.properties" />
@@ -228,7 +162,6 @@
         <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/generalEmail/src/main/java/com/minghua/generalEmail/service/EmailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/utils/P.java" />
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/command/StoryGroup.java" />
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/WhiteFemaleHuman.java" />
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/abstractFactory/WhiteHuman.java" />
@@ -239,13 +172,18 @@
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/minghua/Facade/Police.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/City.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/CityMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/mapper/CityMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/App.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/User.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/minghua/common/utils/P.java" />
         <option value="$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/AppTest.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/City.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/mapper/CityMapper.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/dao/CityDao.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/CityMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/City.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/dao/CityDaoTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/service/CityService.java" />
       </list>
     </option>
   </component>
@@ -311,11 +249,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="441" />
-    <option name="y" value="7" />
-    <option name="width" value="1487" />
-    <option name="height" value="1010" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="333" />
+    <option name="y" value="68" />
+    <option name="width" value="1480" />
+    <option name="height" value="903" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -572,8 +510,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -584,6 +520,11 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="general" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -624,7 +565,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -632,8 +573,15 @@
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -641,16 +589,6 @@
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -668,30 +606,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -706,23 +628,27 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22242647" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.minghua.study.mybatis.dao" />
       <recent name="com.minghua.study.mybatis" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github\study\rabbitmq\rabbitmq-producer\src\main\resources" />
-      <recent name="D:\github\study\dubboconsumer\src\main\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ramq" />
       <recent name="minghua" />
       <recent name="com.minghua.springboot" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\study\rabbitmq\rabbitmq-consumer02\src\main\java\com\minghua\mq\consumer01\service" />
+      <recent name="D:\github\study\rabbitmq\rabbitmq-consumer01\src\main\resources" />
+      <recent name="D:\github\study\rabbitmq\rabbitmq-consumer02\src\main\resources" />
+      <recent name="D:\github\study\rabbitmq\rabbitmq-producer\src\test" />
+      <recent name="D:\github\study\rabbitmq\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="model" />
@@ -731,12 +657,9 @@
       <recent name="com.minghua.dubbo.service" />
       <recent name="com.minghua.dubbo.domain" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\study\rabbitmq\rabbitmq-consumer02\src\main\java\com\minghua\mq\consumer01\service" />
-      <recent name="D:\github\study\rabbitmq\rabbitmq-consumer01\src\main\resources" />
-      <recent name="D:\github\study\rabbitmq\rabbitmq-consumer02\src\main\resources" />
-      <recent name="D:\github\study\rabbitmq\rabbitmq-producer\src\test" />
-      <recent name="D:\github\study\rabbitmq\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\study\rabbitmq\rabbitmq-producer\src\main\resources" />
+      <recent name="D:\github\study\dubboconsumer\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -751,39 +674,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Client.called">
+  <component name="RunManager" selected="JUnit.CityDaoTest.save">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.minghua.mq.consumer01.App" />
-      <module name="rabbitmqconsumer01" />
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.minghua.study.mybatis.App" />
+      <module name="mybatis" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.minghua.mq.consumer01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.minghua.mq.consumer01.App" />
-      <module name="rabbitmqconsumer02" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.minghua.mq.consumer01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ramq.Application" />
-      <module name="rabbitmqproducer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ramq.*" />
+          <option name="PATTERN" value="com.minghua.study.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -791,19 +692,42 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Client.called" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designPattern" />
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.minghua.composite.*" />
+          <option name="PATTERN" value="com.minghua.study.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.minghua.composite" />
-      <option name="MAIN_CLASS_NAME" value="com.minghua.composite.Client" />
-      <option name="METHOD_NAME" value="called" />
+      <option name="PACKAGE_NAME" value="com.minghua.study.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.minghua.study.mybatis.AppTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minghua.study.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.minghua.study.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.minghua.study.mybatis.AppTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -814,19 +738,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ListTest.deleteEle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common" />
+    <configuration name="CityDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minghua.common.imporvejava.javacollection.*" />
+          <option name="PATTERN" value="com.minghua.study.mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="minghua.common.imporvejava.javacollection" />
-      <option name="MAIN_CLASS_NAME" value="minghua.common.imporvejava.javacollection.ListTest" />
-      <option name="METHOD_NAME" value="deleteEle" />
+      <option name="PACKAGE_NAME" value="com.minghua.study.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.minghua.study.mybatis.dao.CityDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CityDaoTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minghua.study.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.minghua.study.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.minghua.study.mybatis.dao.CityDaoTest" />
+      <option name="METHOD_NAME" value="findByName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -837,19 +784,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Runner.testMsg (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rabbitmqproducer" />
+    <configuration name="CityDaoTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ramq.*" />
+          <option name="PATTERN" value="com.minghua.study.mybatis.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ramq" />
-      <option name="MAIN_CLASS_NAME" value="ramq.Runner" />
-      <option name="METHOD_NAME" value="testMsg" />
+      <option name="PACKAGE_NAME" value="com.minghua.study.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.minghua.study.mybatis.dao.CityDaoTest" />
+      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -899,19 +846,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.Runner.testMsg (1)" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.App (1)" />
-      <item itemvalue="JUnit.Client.called" />
+      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.AppTest.test" />
+      <item itemvalue="JUnit.CityDaoTest" />
+      <item itemvalue="JUnit.CityDaoTest.findByName" />
+      <item itemvalue="JUnit.CityDaoTest.save" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Client.called" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.Runner.testMsg (1)" />
+        <item itemvalue="JUnit.CityDaoTest.save" />
+        <item itemvalue="JUnit.CityDaoTest.findByName" />
+        <item itemvalue="JUnit.CityDaoTest" />
+        <item itemvalue="JUnit.AppTest.test" />
+        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -942,60 +889,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner_testMsg - 2018.05.28 at 00h 26m 03s.xml">
-      <configuration name="Runner.testMsg" configurationId="JUnit" />
+    <history-entry file="AppTest_test - 2018.05.31 at 10h 16m 54s.xml">
+      <configuration name="AppTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.28 at 00h 35m 17s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="AppTest_test - 2018.05.31 at 10h 17m 16s.xml">
+      <configuration name="AppTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.28 at 00h 36m 02s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="CityDaoTest - 2018.05.31 at 10h 28m 35s.xml">
+      <configuration name="CityDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.28 at 00h 36m 41s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="CityDaoTest - 2018.05.31 at 10h 29m 37s.xml">
+      <configuration name="CityDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.28 at 00h 37m 27s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="CityDaoTest - 2018.05.31 at 10h 35m 06s.xml">
+      <configuration name="CityDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.28 at 00h 41m 12s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="CityDaoTest - 2018.05.31 at 10h 35m 51s.xml">
+      <configuration name="CityDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2018.05.28 at 11h 35m 13s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
+    <history-entry file="CityDaoTest_findByName - 2018.05.31 at 10h 36m 19s.xml">
+      <configuration name="CityDaoTest.findByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner_testMsg_(1) - 2018.05.28 at 17h 22m 36s.xml">
-      <configuration name="Runner.testMsg (1)" configurationId="JUnit" />
+    <history-entry file="CityDaoTest_save - 2018.05.31 at 10h 53m 41s.xml">
+      <configuration name="CityDaoTest.save" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner_testMsg_(1) - 2018.05.28 at 17h 23m 58s.xml">
-      <configuration name="Runner.testMsg (1)" configurationId="JUnit" />
+    <history-entry file="CityDaoTest_save - 2018.05.31 at 10h 54m 07s.xml">
+      <configuration name="CityDaoTest.save" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Client_called - 2018.05.30 at 11h 44m 08s.xml">
-      <configuration name="Client.called" configurationId="JUnit" />
+    <history-entry file="CityDaoTest_save - 2018.05.31 at 10h 56m 21s.xml">
+      <configuration name="CityDaoTest.save" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="8646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="441" y="7" width="1487" height="1010" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60305345" visible="true" weight="0.27049756" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49785408" weight="0.35863873" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50479746" side_tool="true" weight="0.43878657" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50479746" side_tool="true" weight="0.4384817" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" weight="0.33239833" />
-      <window_info id="Structure" order="1" sideWeight="0.39694658" side_tool="true" weight="0.26932085" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4968017" weight="0.39869988" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" visible="true" weight="0.22355507" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4968017" weight="0.568157" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5997191" visible="true" weight="0.16791044" />
+      <window_info id="Structure" order="1" sideWeight="0.4002809" side_tool="true" visible="true" weight="0.16791044" />
       <window_info id="Favorites" order="2" sideWeight="0.50508475" side_tool="true" weight="0.22404371" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3530928" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1004,18 +952,18 @@
       <window_info anchor="bottom" id="Log Manager" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.32881355" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49785408" weight="0.35969663" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Query Editor" order="2" />
       <window_info anchor="bottom" id="Debug Logs" order="7" />
       <window_info anchor="bottom" id="Salesforce" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Execute Anonymous" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32795697" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="2" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -1023,6 +971,7 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="19" />
+      <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49492583" visible="true" weight="0.38172042" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1037,7 +986,6 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50507414" side_tool="true" weight="0.3456376" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49785408" weight="0.36021507" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Query Editor" order="7" />
@@ -1048,7 +996,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60305345" visible="true" weight="0.30881163" />
       <window_info anchor="bottom" id="Execute Anonymous" order="18" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.39694658" side_tool="true" weight="0.26932085" />
@@ -1086,30 +1034,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="44" column="71" selection-start-line="44" selection-start-column="71" selection-end-line="44" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer02/src/main/java/com/minghua/mq/consumer01/config/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1771">
-          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/config/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-producer/logs/error.log" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-producer/logs/debug.log" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-producer/logs/info.log" />
     <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-producer/src/main/java/ramq/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1302,13 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/utils/P.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq-consumer01/src/main/java/com/minghua/mq/consumer01/service/ReceiverListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -1323,13 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/Departement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1337,74 +1247,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/BlogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/BlogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/CityMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/BlogMapper.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/BlogMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/City.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/data/CityMapper.java" />
     <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="782">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/mapper/CityMapper.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/AppTest.java" />
+    <entry file="jar://D:/dev-env/maven_repo/m2/repository/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar!/org/springframework/test/context/transaction/TransactionConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/City.java">
+    <entry file="file://$PROJECT_DIR$/general/src/main/java/minghua/lombook/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="161">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/general/src/main/java/minghua/lombook/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1413,23 +1304,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/dao/CityDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="276">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/mapper/CityMapper.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/minghua/common/utils/P.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="230">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/CityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/model/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/java/com/minghua/study/mybatis/dao/CityDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/minghua/study/mybatis/service/CityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>

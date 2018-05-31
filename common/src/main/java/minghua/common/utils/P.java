@@ -6,7 +6,7 @@ package minghua.common.utils;
  * @modified By:
  */
 public class P {
-    public static void rintln(String msg){
+    public static void rintln(Object msg){
         System.out.println(msg);
     }
 }
