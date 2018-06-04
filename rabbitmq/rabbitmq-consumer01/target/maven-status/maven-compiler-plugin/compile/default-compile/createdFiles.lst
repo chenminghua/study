@@ -1,5 +1,0 @@
-ramq\model\Product.class
-com\minghua\mq\consumer01\service\ReceiverListener.class
-com\minghua\mq\consumer01\App.class
-com\minghua\mq\consumer01\config\RabbitMQConfig$1.class
-com\minghua\mq\consumer01\config\RabbitMQConfig.class
