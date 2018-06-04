@@ -1,6 +1,7 @@
 package com.minghua.abstractFactory;
 
-import minghua.utils.P;
+
+import minghua.common.utils.P;
 
 /**
  * @author minghua.chen

@@ -18,9 +18,7 @@
         <module>designPattern</module>
         <module>dubboprovider</module>
         <module>dubboconsumer</module>
-        <module>jaxrs</module>
         <module>zkstudy</module>
-        <module>wechatpay</module>
         <module>alipay</module>
     </modules>
 

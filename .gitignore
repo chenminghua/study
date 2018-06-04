@@ -2,10 +2,12 @@
 *.class
 targets/
 .setttings/
+*.idea
 .idea/
 .idea/*
+.idea/*.xml
 *.gitignore
 *.iml
 /logs
 /springboot/target/
-workspace.xml
+.idea/workspace.xml
