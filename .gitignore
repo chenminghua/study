@@ -8,3 +8,4 @@ targets/
 *.iml
 /logs
 /springboot/target/
+workspace.xml
