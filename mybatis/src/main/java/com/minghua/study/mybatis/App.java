@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @modified By:
  */
 @SpringBootApplication
-@MapperScan("com.minghua.study.mybatis.dao")
+@MapperScan("com.minghua.study.mybatis.mapper")
 public class App {
 
     public static void main(String[] args) {

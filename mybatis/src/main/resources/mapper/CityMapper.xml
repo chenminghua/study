@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
-<mapper namespace="com.minghua.study.mybatis.dao.CityDao">
+<mapper namespace="com.minghua.study.mybatis.mapper.CityMapper">
     <resultMap id="BaseResultMap" type="com.minghua.study.mybatis.model.City">
         <result column="id" property="id" />
         <result column="name" property="name" />
         <result column="province" property="province" />
         <result column="country" property="country" />
     </resultMap>
+
 
     <parameterMap id="City" type="com.minghua.study.mybatis.model.City" />
 
@@ -30,15 +31,8 @@
         where province=#{provinceName}
     </select>
 
-    <!--返回一个map-->
-    <resultMap id="CityMap" type="com.minghua.study.mybatis.model.City">
-        <result property="id" column="id"/>
-        <result property="name" column="name"/>
-        <result property="province" column="province"/>
-        <result property="country" column="country"/>
-    </resultMap>
-
-    <select id="findCitiesByProvinceWithMap" resultMap="CityMap" parameterType="java.lang.String">
+    <!--返回有一个map-->
+    <select id="findCitiesByProvinceWithMap" resultMap="BaseResultMap" parameterType="java.lang.String">
         select
         <include refid="Base_Column_List" />
         from city
@@ -49,5 +43,19 @@
         insert into city
         (name,province,country) values(#{name},#{province},#{country})
     </insert>
+
+    <update id="update" parameterType="com.minghua.study.mybatis.model.City">
+        update city
+        <trim prefix="set" suffixOverrides=",">
+            <if test="name!=null">name=#{name},</if>
+            <if test="province!=null">province=#{province},</if>
+            <if test="country!=null">country=#{country},</if>
+        </trim>
+        where id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from city where id = #{id}
+    </delete>
 
 </mapper>

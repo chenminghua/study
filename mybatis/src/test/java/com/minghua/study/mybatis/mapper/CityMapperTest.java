@@ -1,4 +1,4 @@
-package com.minghua.study.mybatis.dao;
+package com.minghua.study.mybatis.mapper;
 
 import com.minghua.study.mybatis.model.City;
 import minghua.common.utils.P;
@@ -11,6 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author: minghua
@@ -20,14 +21,21 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CityDaoTest {
+public class CityMapperTest {
     @Autowired
-    private CityDao cityDao;
+    private CityMapper cityDao;
 
     @Test
     public void findByName() {
         String cityName = "绵阳";
         City city = cityDao.findByName(cityName);
+        P.rintln(city);
+    }
+
+    @Test
+    public void findById() {
+        int id = 3;
+        City city = cityDao.findById(id);
         P.rintln(city);
     }
 
@@ -56,5 +64,45 @@ public class CityDaoTest {
 
         Assert.assertTrue(result);
         Assert.assertEquals(cname, savedCity.getName());
+    }
+
+    @Test
+    public void findCitiesByProvinceWithMap() {
+        String province = "四川";
+        Map<String, City> cityMap = cityDao.findCitiesByProvinceWithMap(province);
+        cityMap.forEach((key, vaule) -> {
+            P.rintln(key);
+            P.rintln(vaule);
+        });
+    }
+
+
+    @Test
+    @Transactional
+    public void update() {
+        String cName = "绵阳";
+        City city = cityDao.findByName(cName);
+        P.rintln(city);
+        city.setProvince("甘肃");
+        //city.setCountry("美国");
+        boolean result = cityDao.update(city);
+        P.rintln(result);
+
+        City city1 = cityDao.findByName(cName);
+        P.rintln(city1);
+    }
+
+    @Test
+    @Transactional
+    public void delete() {
+        int id = 1;
+        boolean result = cityDao.delete(id);
+        City city = cityDao.findById(id);
+        Assert.assertNull(city);
+    }
+
+    @Test
+    public void listCitiesByName() {
+
     }
 }
