@@ -1,4 +1,4 @@
-package com.minghua.study.mybatis.model;
+package com.minghua.study.swagger.mybatis.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

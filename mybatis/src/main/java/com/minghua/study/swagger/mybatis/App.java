@@ -1,4 +1,4 @@
-package com.minghua.study.mybatis;
+package com.minghua.study.swagger.mybatis;
 
 import com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration;
 import org.mybatis.spring.annotation.MapperScan;

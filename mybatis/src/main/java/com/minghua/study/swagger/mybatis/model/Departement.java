@@ -1,4 +1,4 @@
-package com.minghua.study.mybatis.model;
+package com.minghua.study.swagger.mybatis.model;
 
 /**
  * @author: minghua

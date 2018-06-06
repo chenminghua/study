@@ -1,10 +1,11 @@
-package com.minghua.study.mybatis.service.impl;
+package com.minghua.study.swagger.mybatis.service.impl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.minghua.study.mybatis.mapper.UserMapper;
 import com.minghua.study.mybatis.model.User;
 import com.minghua.study.mybatis.service.UserService;
+import com.minghua.study.swagger.mybatis.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

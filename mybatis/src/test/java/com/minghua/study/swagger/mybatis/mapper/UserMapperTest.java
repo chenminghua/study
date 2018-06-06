@@ -1,4 +1,4 @@
-package com.minghua.study.mybatis.mapper;
+package com.minghua.study.swagger.mybatis.mapper;
 
 import com.github.pagehelper.Page;
 import com.minghua.study.mybatis.model.User;

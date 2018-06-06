@@ -1,7 +1,8 @@
-package com.minghua.study.mybatis.service;
+package com.minghua.study.swagger.mybatis.service;
 
 import com.github.pagehelper.Page;
 import com.minghua.study.mybatis.model.User;
+import com.minghua.study.swagger.mybatis.model.User;
 import minghua.common.utils.P;
 import org.junit.Assert;
 import org.junit.Test;
