@@ -17,7 +17,7 @@ import java.io.IOException;
  * @date 17-8-15
  */
 public class CustomFilter extends GenericFilterBean {
-    private int times;
+    private volatile int times;
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         long startTime = System.currentTimeMillis();

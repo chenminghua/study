@@ -9,10 +9,16 @@
     <property name="log.pattern" value="%-12(%d{yyyy-MM-dd HH:mm:ss.SSS}) |-%-5level [%thread] %c [%L] -| %msg%n" />
 
     <!-- 控制台设置 -->
-    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>${log.pattern}</pattern>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
     </appender>
 
     <!-- DEBUG -->
@@ -92,6 +98,7 @@
     <root level="minghua.logging.info">
         <appender-ref ref="infoAppender" />
         <appender-ref ref="errorAppender" />
+        <appender-ref ref="STDOUT" />
     </root>
 
 </configuration>
