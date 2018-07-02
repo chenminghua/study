@@ -1,6 +1,7 @@
 package com.minghua.spbtmgdb.domain;
 
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.InputStream;
 
@@ -10,10 +11,9 @@ import java.io.InputStream;
  * @modified By:
  */
 @Data
+@Document(collection = "user")
 public class User {
-    //头像
-    private InputStream image;
-    private int id;
+    private String id;
     private String name;
     private String email;
 }
