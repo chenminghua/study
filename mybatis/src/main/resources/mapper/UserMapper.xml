@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
 <mapper namespace="com.minghua.study.mybatis.mapper.UserMapper">
-    <resultMap id="BaseResultMap" type="com.minghua.study.mybatis.model.User">
+    <resultMap id="BaseResultMap" type="com.minghua.study.mybatis.domain.User">
         <result column="id" property="id" />
         <result column="name" property="name" />
         <result column="age" property="age" />
@@ -11,13 +11,13 @@
     </resultMap>
 
 
-    <parameterMap id="User" type="com.minghua.study.mybatis.model.User" />
+    <parameterMap id="User" type="com.minghua.study.mybatis.domain.User" />
 
     <sql id="Base_Column_List">
         id, name, age, create_time, update_time
     </sql>
     
-    <select id="listUsers" resultType="com.minghua.study.mybatis.model.User">
+    <select id="listUsers" resultType="com.minghua.study.mybatis.domain.User">
         select
         <include refid="Base_Column_List" />
         from t_user

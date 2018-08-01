@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 import java.util.Map;
 
 /**
@@ -59,4 +61,23 @@ public class HelloController {
         Departement departement = deptRepository.findOne(dept);
         return userRepository.save(new User(name, email, departement));
     }
+
+    @RequestMapping(value = "/test", method = RequestMethod.POST)
+    String test(String name, String email, int age){
+        LOGGER.info("get param is :{},{},{}", name, email, age);
+        return "SUCCESS";
+    }
+
+    @RequestMapping(value = "/testRaw", method = RequestMethod.POST)
+    String testRaw(HttpServletRequest request){
+        byte[] recived = new byte[1024];
+        try {
+            request.getInputStream().read(recived);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        LOGGER.info("get param is :{}", recived);
+        return "SUCCESS";
+    }
+
 }

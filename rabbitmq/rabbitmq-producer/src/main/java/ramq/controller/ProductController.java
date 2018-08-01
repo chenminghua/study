@@ -31,7 +31,7 @@ public class ProductController {
             return "FAIL";
         }
         Product product = new Product(id, name, price);
-        System.out.println("controller:" + product);
+        System.out.println("com.minghua.study.kafka.controller:" + product);
         productService.save(product);
         return product.toString();
     }

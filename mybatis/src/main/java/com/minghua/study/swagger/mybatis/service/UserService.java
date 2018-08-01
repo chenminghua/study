@@ -1,8 +1,8 @@
 package com.minghua.study.swagger.mybatis.service;
 
 import com.github.pagehelper.Page;
-import com.minghua.study.mybatis.model.User;
-import org.springframework.stereotype.Service;
+
+import com.minghua.study.swagger.mybatis.model.User;
 
 /**
  * @author: minghua

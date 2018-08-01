@@ -22,7 +22,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.minghua.study.swagger2.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.minghua.study.swagger2.com.minghua.study.kafka.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

@@ -3,8 +3,6 @@ package com.minghua.spbtmgdb.domain;
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.io.InputStream;
-
 /**
  * @author: minghua
  * @date: 2018/6/28 18:25

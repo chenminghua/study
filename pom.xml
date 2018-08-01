@@ -22,6 +22,9 @@
         <module>alipay</module>
         <module>swagger2</module>
         <module>spbt-mongodb</module>
+        <module>kafka</module>
+        <module>kafkaconsumer</module>
+        <module>ddconfig</module>
     </modules>
 
     <parent>

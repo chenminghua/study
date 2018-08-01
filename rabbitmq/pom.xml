@@ -15,6 +15,7 @@
         <module>rabbitmq-consumer01</module>
         <module>rabbitmq-consumer02</module>
         <module>rabbitmq-producer</module>
+        <module>mqtt</module>
     </modules>
     <dependencies>
 

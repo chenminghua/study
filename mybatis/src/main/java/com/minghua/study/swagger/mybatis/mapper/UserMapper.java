@@ -1,12 +1,8 @@
 package com.minghua.study.swagger.mybatis.mapper;
 
-import com.minghua.study.mybatis.model.User;
 import com.minghua.study.swagger.mybatis.model.User;
 import org.apache.ibatis.annotations.Mapper;
 import com.github.pagehelper.Page;
-import org.apache.ibatis.annotations.Param;
-
-import java.util.List;
 
 /**
  * @author: minghua

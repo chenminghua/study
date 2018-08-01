@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
 <mapper namespace="com.minghua.study.mybatis.mapper.CityMapper">
-    <resultMap id="BaseResultMap" type="com.minghua.study.mybatis.model.City">
+    <resultMap id="BaseResultMap" type="com.minghua.study.mybatis.domain.City">
         <result column="id" property="id" />
         <result column="name" property="name" />
         <result column="province" property="province" />
@@ -10,7 +10,7 @@
     </resultMap>
 
 
-    <parameterMap id="City" type="com.minghua.study.mybatis.model.City" />
+    <parameterMap id="City" type="com.minghua.study.mybatis.domain.City" />
 
     <sql id="Base_Column_List">
         id, name, province, country
@@ -24,7 +24,7 @@
     </select>
 
     <!--返回一个list-->
-    <select id="listByProvinceName" resultType="com.minghua.study.mybatis.model.City">
+    <select id="listByProvinceName" resultType="com.minghua.study.mybatis.domain.City">
         select
         <include refid="Base_Column_List" />
         from city
@@ -39,12 +39,12 @@
         where province=#{provinceName}
     </select>
 
-    <insert id="save" parameterType="com.minghua.study.mybatis.model.City">
+    <insert id="save" parameterType="com.minghua.study.mybatis.domain.City">
         insert into city
         (name,province,country) values(#{name},#{province},#{country})
     </insert>
 
-    <update id="update" parameterType="com.minghua.study.mybatis.model.City">
+    <update id="update" parameterType="com.minghua.study.mybatis.domain.City">
         update city
         <trim prefix="set" suffixOverrides=",">
             <if test="name!=null">name=#{name},</if>

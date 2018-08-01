@@ -1,0 +1,10 @@
+<configuration>
+    <appender name="KAFKA" class="com.minghua.study.kafka.KafkaAppender">
+        <topic>logs</topic>
+        <zookeeperHost>192.168.56.102:2181</zookeeperHost>
+        <brokerList>192.168.56.102:9092</brokerList>
+    </appender>
+    <root level="debug">
+        <appender-ref ref="KAFKA"/>
+    </root>
+</configuration>

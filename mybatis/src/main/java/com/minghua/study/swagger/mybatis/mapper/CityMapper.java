@@ -1,12 +1,13 @@
 package com.minghua.study.swagger.mybatis.mapper;
 
-import com.minghua.study.mybatis.model.City;
+import com.minghua.study.swagger.mybatis.model.City;
 import org.apache.ibatis.annotations.MapKey;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 import java.util.Map;
+
 
 /**
  * @author: minghua

@@ -24,7 +24,7 @@ public class Demo {
             int sec = input.nextInt();
             System.out.println("输入参数是：" + first + "," + sec);
             //执行js代码
-            scriptEngine.eval(new FileReader("d:/ramq.model.js"));
+            scriptEngine.eval(new FileReader("d:/ramq.domain.js"));
             //是否可调用方法
             if (scriptEngine instanceof Invocable) {
                 Invocable in = (Invocable) scriptEngine;
