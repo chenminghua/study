@@ -22,6 +22,15 @@ public class StringTest {
 
         String s3 = "abcdef";
         Assert.assertEquals(3, s3.compareTo(s1));
+
+
+        String s2 = "ddaaabbaacc";
+        System.out.println(replaceAll(s2, "aa"));
+    }
+
+    private String replaceAll(String s2, String replaceMent) {
+        StringBuilder sb = new StringBuilder("");
+        return null;
     }
 
     @Test
