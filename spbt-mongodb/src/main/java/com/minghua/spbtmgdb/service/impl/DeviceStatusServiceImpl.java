@@ -1,29 +1,17 @@
 package com.minghua.spbtmgdb.service.impl;
 
 import com.minghua.spbtmgdb.domain.FreezerStatus;
-import com.minghua.spbtmgdb.domain.User;
 import com.minghua.spbtmgdb.service.DeviceService;
-import com.minghua.spbtmgdb.service.UserService;
-import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
-import com.mongodb.gridfs.GridFSDBFile;
-import com.mongodb.gridfs.GridFSFile;
+import com.sun.istack.internal.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
-import org.springframework.data.mongodb.gridfs.GridFsCriteria;
-import org.springframework.data.mongodb.gridfs.GridFsTemplate;
 import org.springframework.stereotype.Service;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.List;
 
 /**
@@ -53,19 +41,23 @@ public class DeviceStatusServiceImpl implements DeviceService {
     public FreezerStatus findDevStatus(String devSn) {
         Query query = new Query();
         Criteria criteria = Criteria.where("devSn").is(devSn);
+
         query.addCriteria(criteria);
+
         FreezerStatus freezerStatus = mongoTemplate.findOne(query, FreezerStatus.class);
         return freezerStatus;
     }
 
     @Override
-    public List<FreezerStatus> listDevStatus() {
-        //find by same email
-        String email = "minghua.cc@qq.com";
+    public List<FreezerStatus> listDevStatus(String devSn, @Nullable Integer limit) {
+        int limit1 = (limit == null || limit.equals(0) ? 10: limit.intValue());
         Query query = new Query();
-        Criteria criteria = Criteria.where("email").is(email);
+        Sort sort = new Sort("dateTime");
+        Criteria criteria = Criteria.where("devSn").is(devSn);
         query.addCriteria(criteria);
-        List<FreezerStatus> users = mongoTemplate.find(query, FreezerStatus.class);
-        return users;
+        query.with(sort);
+        query.limit(limit1);
+        List<FreezerStatus> devStatus = mongoTemplate.find(query, FreezerStatus.class);
+        return devStatus;
     }
 }

@@ -19,5 +19,5 @@ public interface DeviceService {
 
     FreezerStatus findDevStatus(String devSn);
 
-    List<FreezerStatus> listDevStatus();
+    List<FreezerStatus> listDevStatus(String devSn, Integer limit);
 }
