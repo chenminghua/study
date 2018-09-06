@@ -25,6 +25,7 @@
         <module>kafka</module>
         <module>kafkaconsumer</module>
         <module>ddconfig</module>
+        <module>spi</module>
     </modules>
 
     <parent>
