@@ -14,15 +14,15 @@ package com.minghua.strategy;
  * @修改日期：
  * @修改说明：
  */
-public class Context {
+public class Context implements IStrategy{
 	//构造函数，你要使用的那个妙计
 	private IStrategy strategy;
 	public Context (IStrategy strategy){
 		this.strategy = strategy;
 	}
-	
-	//使用计谋，看我出招了
-	public void operate(){
+
+	@Override
+	public void opertare() {
 		this.strategy.opertare();
 	}
 }

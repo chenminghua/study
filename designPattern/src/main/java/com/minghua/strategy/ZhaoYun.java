@@ -27,17 +27,17 @@ public class ZhaoYun {
 		//使用第一计
 		System.out.print("----------刚到吴国的时候拆第一个----------------");
 		context = new Context(new BackDoor());
-		context.operate();
+		context.opertare();
 		System.out.println("\n\n\n\n\n\n\n\n");
 		//使用第二计
 		System.out.print("----------刘备乐不思蜀，拆第二个----------------");
 		context = new Context(new GivenGreenLight());
-		context.operate();
+		context.opertare();
 		System.out.print("\n\n\n\n\n\n\n\n");
 		//使用第三计
 		System.out.print("----------孙权的小兵追了，拆第三个----------------");
 		context = new Context(new BlockEnemy());
-		context.operate();
+		context.opertare();
 		System.out.print("\n\n\n\n\n\n\n\n");
 	}
 
