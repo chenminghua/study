@@ -26,6 +26,7 @@
         <module>kafkaconsumer</module>
         <module>ddconfig</module>
         <module>spi</module>
+        <module>weight2goods</module>
     </modules>
 
     <parent>
