@@ -3,6 +3,8 @@ package com.minghua.weight2goods.model;
 import lombok.Data;
 import lombok.ToString;
 
+import java.util.Objects;
+
 /**
  * @author: minghua
  * @date: 2018/9/11 13:40
@@ -55,5 +57,25 @@ public class Goods {
 
     public void setCount(int count) {
         this.count = count;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Goods goods = (Goods) o;
+        return Float.compare(goods.weight, weight) == 0 &&
+                Float.compare(goods.price, price) == 0 &&
+                count == goods.count &&
+                Objects.equals(name, goods.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, weight, price, count);
     }
 }
