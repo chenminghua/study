@@ -1,6 +1,6 @@
-package com.minghua.study.spi.service.impl;
+package com.minghua.study.spi.jdk.service.impl;
 
-import com.minghua.study.spi.service.ISearch;
+import com.minghua.study.spi.jdk.service.ISearch;
 
 /**
  * @author: minghua

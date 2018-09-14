@@ -2,4 +2,5 @@
 #文件名称要求为包名+接口类的名称
 #文件内容为该接口类的指定实现类完整路径
 #FileSearchImpl
-com.minghua.study.spi.service.impl.DbSearchImpl
+com.minghua.study.spi.jdk.service.impl.DbSearchImpl
+com.minghua.study.spi.jdk.service.impl.FileSearchImpl

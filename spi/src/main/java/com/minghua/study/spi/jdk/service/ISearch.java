@@ -1,4 +1,4 @@
-package com.minghua.study.spi.service;
+package com.minghua.study.spi.jdk.service;
 
 /**
  * @author: minghua

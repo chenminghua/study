@@ -1,6 +1,7 @@
 package minghua.synchronization;
 
 import org.junit.Test;
+
 import java.util.Scanner;
 
 public class SyncTest {

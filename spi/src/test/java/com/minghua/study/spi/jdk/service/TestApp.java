@@ -1,4 +1,4 @@
-package com.minghua.study.spi.service;
+package com.minghua.study.spi.jdk.service;
 
 import com.alibaba.dubbo.common.extension.ExtensionLoader;
 import com.minghua.study.spi.dubbo.service.IRun;
