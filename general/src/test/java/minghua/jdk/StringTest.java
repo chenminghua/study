@@ -5,6 +5,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import javax.validation.constraints.AssertTrue;
+import javax.validation.constraints.NotNull;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 /**
  * @author minghua.chen
@@ -22,15 +27,28 @@ public class StringTest {
         String aa = new String("aa");
         String bb = new String("aa");
 
-        Assert.assertTrue(a == b);
-        Assert.assertTrue(aa.equals(bb));
+        assertTrue(a == b);
+        assertTrue(aa.equals(bb));
 
         StringBuffer sb = new StringBuffer("abc");//true
-        Assert.assertTrue(a.contentEquals(sb));//true
-        Assert.assertFalse(a.equals(sb));//false
+        assertTrue(a.contentEquals(sb));//true
+        assertFalse(a.equals(sb));//false
 
-        Assert.assertTrue(a.startsWith("bc", 1));
-        Assert.assertTrue(a.startsWith("a"));
+        assertTrue(a.startsWith("bc", 1));
+        assertTrue(a.startsWith("a"));
 
+    }
+
+    @Test
+    public void testNullString(){
+        String s = null;
+        assertTrue(null == s);
+        assertFalse("".equals(s));
+        String s1 = paramNotNull("abc");
+
+        assertTrue("null annotation check fail -" , s1.equals("abc@"));
+    }
+    private String paramNotNull(String s) {
+        return s.concat("@");
     }
 }

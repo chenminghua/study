@@ -1,6 +1,5 @@
 package minghua.common.improvejava.autobox;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -21,9 +20,12 @@ public class AutoBoxTest {
      */
     @Test
     public void testAutoBox() {
-        Integer a = 20000;
-        Integer b = 20000;
+        Integer a = 200000;
+        Integer b = 200000;
+        int c = 200000;
+
         assertThat("failure - They are equals!", a, equalTo(b));
         assertThat("failure,- They are ==", a == b);
+        assertThat("failure,- They are ==", a == c);
     }
 }
