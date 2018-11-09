@@ -27,6 +27,7 @@
         <module>ddconfig</module>
         <module>spi</module>
         <module>weight2goods</module>
+        <module>tcpserver</module>
     </modules>
 
     <parent>
