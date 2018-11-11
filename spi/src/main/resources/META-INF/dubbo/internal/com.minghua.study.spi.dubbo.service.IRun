@@ -1,0 +1,7 @@
+#要求在META-INF/dubbo/internal目下创建文件
+#文件名称要求为包名+接口类的名称
+#文件内容为key-接口类的指定实现类完整路径
+#1. ExtensionLoader<Interface> loader =  ExtensionLoader.getExtensionLoad(Interface.class)
+#2. Interface impl = ExtensionLoader.getExtension(key)
+human=com.minghua.study.spi.dubbo.service.impl.HumanRunImpl
+rabbit=com.minghua.study.spi.dubbo.service.impl.RabbitRunImpl

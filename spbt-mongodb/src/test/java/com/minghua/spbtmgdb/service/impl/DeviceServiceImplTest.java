@@ -86,7 +86,7 @@ public class DeviceServiceImplTest {
                 // 返回取得的List
                 @Override
                 public List<FreezerStatus> call() throws Exception {
-                    List<FreezerStatus> result = new ArrayList<FreezerStatus>();
+                    List<FreezerStatus> result = new ArrayList<>();
                     try {
                         result = deviceService.listDevStatus(devSn, null);
                     } catch (Exception e) {

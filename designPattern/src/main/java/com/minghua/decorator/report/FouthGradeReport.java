@@ -1,6 +1,6 @@
 package com.minghua.decorator.report;
 
-public class FouthGradeReport extends SchooleReport {
+public class       FouthGradeReport extends SchooleReport {
     //我的成绩单
     @Override
     public void report() {

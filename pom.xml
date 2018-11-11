@@ -25,7 +25,13 @@
         <module>kafka</module>
         <module>kafkaconsumer</module>
         <module>ddconfig</module>
+<<<<<<< HEAD
         <module>nettyServer</module>
+=======
+        <module>spi</module>
+        <module>weight2goods</module>
+        <module>tcpserver</module>
+>>>>>>> 150529b2293f2a0b421c5d63f18c1376d1174d95
     </modules>
 
     <parent>
@@ -94,6 +100,11 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
         </dependency>
 
     </dependencies>
