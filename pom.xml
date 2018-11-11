@@ -25,6 +25,7 @@
         <module>kafka</module>
         <module>kafkaconsumer</module>
         <module>ddconfig</module>
+        <module>nettyServer</module>
     </modules>
 
     <parent>
@@ -33,12 +34,18 @@
         <version>1.5.6.RELEASE</version>
     </parent>
 
+    <properties>
+        <fastJson_ver>1.2.31</fastJson_ver>
+        <junit_ver>4.12</junit_ver>
+        <lombok_ver>1.16.10</lombok_ver>
+        <jodeTime_ver>2.9.9</jodeTime_ver>
+    </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit_ver}</version>
         </dependency>
 
         <dependency>
@@ -56,14 +63,14 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.10</version>
+            <version>${lombok_ver}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>2.9.9</version>
+            <version>${jodeTime_ver}</version>
         </dependency>
 
         <dependency>
@@ -72,11 +79,10 @@
             <version>1.1.11</version>
         </dependency>
 
-
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.6</version>
+            <version>${fastJson_ver}</version>
         </dependency>
 
         <dependency>
@@ -91,6 +97,5 @@
         </dependency>
 
     </dependencies>
-
 
 </project>
