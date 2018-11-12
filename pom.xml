@@ -25,13 +25,10 @@
         <module>kafka</module>
         <module>kafkaconsumer</module>
         <module>ddconfig</module>
-<<<<<<< HEAD
         <module>nettyServer</module>
-=======
         <module>spi</module>
         <module>weight2goods</module>
         <module>tcpserver</module>
->>>>>>> 150529b2293f2a0b421c5d63f18c1376d1174d95
     </modules>
 
     <parent>
@@ -53,7 +50,10 @@
             <artifactId>junit</artifactId>
             <version>${junit_ver}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
