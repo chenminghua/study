@@ -1,6 +1,6 @@
 package minghua.stopWatch;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.util.StopWatch;
 
 public class TestStopWatch {

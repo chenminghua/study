@@ -14,5 +14,6 @@ public class GuavaPreconditionTest {
     public void testGuavaPrecondition(){
         int length = 1;
         Validate.isTrue(length > 2, "length is %d, less than 2", length);
+        System.out.println("11");
     }
 }

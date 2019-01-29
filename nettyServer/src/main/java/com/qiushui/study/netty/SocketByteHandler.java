@@ -32,7 +32,6 @@ public class SocketByteHandler extends ChannelInboundHandlerAdapter {
         ctx.close();
     }
 
-
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
         super.channelReadComplete(ctx);
