@@ -31,7 +31,6 @@
         <module>tcpserver</module>
         <module>sp-redis</module>
         <module>tts</module>
-        <module>tts</module>
     </modules>
 
     <parent>
