@@ -8,16 +8,20 @@ import org.junit.Test;
  * @modified By:
  */
 public class AliyunTTSTest {
-    private static final String appKey = "pxxpslI0tBHP63fd";
-    private static final String accessToken = "57514053dec14df3a6c3085406d0fb82";
+    //my personal app
+    private static final String appKey = "hfw7WsE6opS5g8sG";
+    private static final String accessToken = "86e6d429278b45df803186929f6538ba";
 
     @Test
     public void testAliyunTTS() {
-        AliyunTTS tts = new AliyunTTS(appKey, accessToken);
-        String text = "农夫山泉3瓶";
-        String fileSavePath = "D:\\log\\tts\\aliyun\\cocacola.mp3";
-        tts.process(text, fileSavePath);
-        tts.shutdown();
+        for (int i = 1; i < 4; i++) {
+            System.out.println("##############################");
+            AliyunTTS tts = new AliyunTTS(appKey, "86e6d429278b45df803186929f6538ba");
+            String text = "农夫山泉" + i + "瓶";
+            String fileSavePath = "D:\\log\\tts\\aliyun\\cocacola_" + i + ".mp3";
+            tts.process(text, fileSavePath);
+            tts.shutdown();
+        }
     }
 
 }

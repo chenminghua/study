@@ -23,13 +23,13 @@ public class AliyunTTS {
      * <p>
      * 语音合成（TTS）Demo
      */
-    private String appKey;
-    private String accessToken;
+    private String appKey = "hfw7WsE6opS5g8sG";
+    private String accessToken = "86e6d429278b45df803186929f6538ba";
     NlsClient client;
 
     public AliyunTTS(String appKey, String token) {
-        this.appKey = appKey;
-        this.accessToken = token;
+        //this.appKey = appKey;
+        //this.accessToken = token;
         // Step0 创建NlsClient实例,应用全局创建一个即可,默认服务地址为阿里云线上服务地址
         client = new NlsClient(accessToken);
     }
@@ -102,6 +102,11 @@ public class AliyunTTS {
 
     public void shutdown() {
         client.shutdown();
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println("hello");
     }
 
 
