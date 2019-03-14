@@ -1,11 +1,13 @@
 package com.qiushui.common.aliyun;
 
+import com.alibaba.nls.client.AccessToken;
 import com.alibaba.nls.client.protocol.NlsClient;
 import com.alibaba.nls.client.protocol.OutputFormatEnum;
 import com.alibaba.nls.client.protocol.SampleRateEnum;
 import com.alibaba.nls.client.protocol.tts.SpeechSynthesizer;
 import com.alibaba.nls.client.protocol.tts.SpeechSynthesizerListener;
 import com.alibaba.nls.client.protocol.tts.SpeechSynthesizerResponse;
+import com.aliyuncs.exceptions.ClientException;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -23,15 +25,21 @@ public class AliyunTTS {
      * <p>
      * 语音合成（TTS）Demo
      */
-    private String appKey;
-    private String accessToken;
-    NlsClient client;
+    private static final String accessKeyID = "LTAIIzAYnHZGJa4d";
+    private static final String accessKeySecret = "Ikh4y6sZl0KkgHbsIJvxqluU63VRJI";
+    private static final String appKey = "pxxpslI0tBHP63fd";
 
-    public AliyunTTS(String appKey, String token) {
-        this.appKey = appKey;
-        this.accessToken = token;
-        // Step0 创建NlsClient实例,应用全局创建一个即可,默认服务地址为阿里云线上服务地址
-        client = new NlsClient(accessToken);
+    // Step0 创建NlsClient实例,应用全局创建一个即可,默认服务地址为阿里云线上服务地址
+    static NlsClient client = new NlsClient("");
+
+    private static void setToken() {
+        AccessToken accessToken = null;
+        try {
+            accessToken = AccessToken.apply(accessKeyID, accessKeySecret);
+        } catch (ClientException e) {
+            e.printStackTrace();
+        }
+        client.setToken(accessToken.getToken());
     }
 
     private static SpeechSynthesizerListener getSynthesizerListener(final String fileSavePath) {
@@ -72,7 +80,8 @@ public class AliyunTTS {
         return listener;
     }
 
-    public void process(String text, String fileSavePath) {
+    public static void process(String text, String fileSavePath) {
+        setToken();
         SpeechSynthesizer synthesizer = null;
         try {
             // Step1 创建实例,建立连接
@@ -100,7 +109,7 @@ public class AliyunTTS {
         }
     }
 
-    public void shutdown() {
+    public static void shutdown() {
         client.shutdown();
     }
 

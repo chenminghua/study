@@ -1,5 +1,7 @@
 package com.qiushui.common.aliyun;
 
+import com.alibaba.nls.client.AccessToken;
+import com.aliyuncs.exceptions.ClientException;
 import org.junit.Test;
 
 /**
@@ -8,16 +10,12 @@ import org.junit.Test;
  * @modified By:
  */
 public class AliyunTTSTest {
-    private static final String appKey = "pxxpslI0tBHP63fd";
-    private static final String accessToken = "57514053dec14df3a6c3085406d0fb82";
-
     @Test
     public void testAliyunTTS() {
-        AliyunTTS tts = new AliyunTTS(appKey, accessToken);
-        String text = "农夫山泉3瓶";
-        String fileSavePath = "D:\\log\\tts\\aliyun\\cocacola.mp3";
-        tts.process(text, fileSavePath);
-        tts.shutdown();
+        String text = "谢谢惠顾";
+        String fileSavePath = "D:\\log\\tts\\aliyun\\goodbye.mp3";
+        AliyunTTS.process(text, fileSavePath);
+        AliyunTTS.shutdown();
     }
 
 }
