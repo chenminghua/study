@@ -25,7 +25,6 @@ public class AliyunTTS {
      * <p>
      * 语音合成（TTS）Demo
      */
-<<<<<<< HEAD
     private static final String accessKeyID = "LTAIIzAYnHZGJa4d";
     private static final String accessKeySecret = "Ikh4y6sZl0KkgHbsIJvxqluU63VRJI";
     private static final String appKey = "pxxpslI0tBHP63fd";
@@ -41,17 +40,7 @@ public class AliyunTTS {
             e.printStackTrace();
         }
         client.setToken(accessToken.getToken());
-=======
-    private String appKey = "hfw7WsE6opS5g8sG";
-    private String accessToken = "86e6d429278b45df803186929f6538ba";
-    NlsClient client;
 
-    public AliyunTTS(String appKey, String token) {
-        //this.appKey = appKey;
-        //this.accessToken = token;
-        // Step0 创建NlsClient实例,应用全局创建一个即可,默认服务地址为阿里云线上服务地址
-        client = new NlsClient(accessToken);
->>>>>>> f031f046234df4b76dca74051a65d0775ef61cde
     }
 
     private static SpeechSynthesizerListener getSynthesizerListener(final String fileSavePath) {
@@ -100,7 +89,7 @@ public class AliyunTTS {
             synthesizer = new SpeechSynthesizer(client, getSynthesizerListener(fileSavePath));
             synthesizer.setAppKey(appKey);
             // 设置返回音频的编码格式
-            synthesizer.setFormat(OutputFormatEnum.WAV);
+            synthesizer.setFormat(OutputFormatEnum.MP3);
             //设置发声人
             synthesizer.setVoice("siqi");
             // 设置返回音频的采样率
